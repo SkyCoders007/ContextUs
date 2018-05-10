@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:lineSpacingExtra="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+    <com.mxi.contextus.Font.BoldMyTextView
+        android:id="@+id/tv_comment_tag_pdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1"
+        android:lineSpacingExtra="0dp"
+        android:textAlignment="center"
+        android:textSize="8dp"
+        android:textStyle="bold" />
+
+    <com.mxi.contextus.Font.BoldMyTextView
+        android:lineSpacingExtra="0dp"
+        android:id="@+id/tv_comment_text_pdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:text="Comment no 1"
+        android:textSize="8dp" />
+</LinearLayout>

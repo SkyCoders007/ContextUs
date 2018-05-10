@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_resequence"
+        android:orderInCategory="100"
+        android:title="Re-sequence"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_assemble_pdf"
+        android:orderInCategory="100"
+        android:title="Assemble PDF"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_header_data"
+        android:orderInCategory="100"
+        android:title="Add Header Data"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete_project"
+        android:orderInCategory="100"
+        android:title="Delete Project"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/delete_image"
+        android:orderInCategory="100"
+        android:title="Delete Image"
+        app:showAsAction="never" />
+
+</menu>

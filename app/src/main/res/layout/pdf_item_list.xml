@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_pdf_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#4682b4"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.mxi.contextus.Font.MyTextView
+            android:id="@+id/tv_header_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:text="Header"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TableRow
+            android:id="@+id/tbl_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="0.5dp"
+            android:background="#4682b4"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/iv_first_2"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_margin="1dp"
+                android:layout_weight="7"
+                android:background="#FFFFFF"
+                android:padding="1dp"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_margin="1dp"
+                android:layout_weight="3"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_sub_pdf1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8.5" />
+
+                <com.mxi.contextus.Font.BoldMyTextView
+                    android:id="@+id/tv_pdf_image_name1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1.5"
+                    android:gravity="bottom|center"
+                    android:textSize="8dp" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tbl_row_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="#4682b4"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/iv_second_2"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_margin="1dp"
+                android:layout_weight="7"
+                android:background="#FFFFFF"
+                android:padding="1dp"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_margin="1dp"
+                android:layout_weight="3"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_sub_pdf2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8.5" />
+
+                <com.mxi.contextus.Font.BoldMyTextView
+                    android:id="@+id/tv_pdf_image_name2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1.5"
+                    android:gravity="bottom|center"
+                    android:textSize="8dp" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tbl_row_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="#4682b4"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/iv_third_2"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_margin="1dp"
+                android:layout_weight="7"
+                android:background="#FFFFFF"
+                android:padding="1dp"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_margin="1dp"
+                android:layout_weight="3"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_sub_pdf3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8.5" />
+
+                <com.mxi.contextus.Font.BoldMyTextView
+                    android:id="@+id/tv_pdf_image_name3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1.5"
+                    android:gravity="bottom|center"
+                    android:textSize="8dp" />
+            </LinearLayout>
+        </TableRow>
+
+        <!--    <TableRow
+                android:id="@+id/tbl_row_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:background="#4682b4"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/iv_third_2"
+                    android:layout_width="0dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="7"
+                    android:background="#FFFFFF"
+                    android:padding="1dp"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="3"
+                    android:background="#ffffff"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_sub_pdf3_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="8.5" />
+
+                    <com.mxi.contextus.Font.BoldMyTextView
+                        android:id="@+id/tv_pdf_image_name3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1.5"
+                        android:gravity="bottom|center"
+                        android:textSize="8dp" />
+                </LinearLayout>
+            </TableRow>
+    -->
+    </TableLayout>
+
+    <LinearLayout
+        android:background="#4682b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:weightSum="2">
+
+            <com.mxi.contextus.Font.MyTextView
+                android:id="@+id/tv_less_unknown"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:paddingLeft="1pt"
+                android:text="Lessunknown.com "
+                android:textAlignment="gravity"
+                android:textSize="12dp"
+                android:textStyle="bold|italic" />
+
+            <com.mxi.contextus.Font.MyTextView
+                android:id="@+id/tv_Page_count"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|bottom"
+                android:text="PageCount"
+                android:textAlignment="gravity"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/add_new_project"
+            android:icon="@drawable/menu_add_new_project"
+            android:title="Add New Project" />
+        <item
+            android:id="@+id/last_used_project"
+            android:icon="@drawable/menu_last_used"
+            android:title="Last Used" />
+    </group>
+
+</menu>

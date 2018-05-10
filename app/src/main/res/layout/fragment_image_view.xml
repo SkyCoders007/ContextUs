@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mxi.contextus.Fragment.ImageViewFragment">
+
+    <com.mxi.contextus.Font.BoldMyTextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="There is no projects available yet"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorAccent"
+        android:visibility="gone" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.mxi.contextus.Font.BoldMyTextView
+        android:id="@+id/tv_no_images"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="There is no image available in the project yet"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorAccent"
+        android:visibility="visible" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_resequence"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="top"
+            android:background="#90ffffff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:weightSum="5">
+
+            <com.mxi.contextus.Font.BoldMyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/resequence_popUp_text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp" />
+
+
+            <com.mxi.contextus.Font.BoldMyButton
+                android:id="@+id/button_resequence_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorAccent"
+                android:gravity="center"
+                android:text="OK"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:gravity="bottom|left"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:src="@drawable/ic_menu_camera"
+                    android:visibility="visible"
+                    app:backgroundTint="#000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <com.mxi.contextus.Font.BoldMyButton
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:background="@color/textColorAccent"
+                    android:text="Cancel"
+                    android:textColor="@color/colorPrimary"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

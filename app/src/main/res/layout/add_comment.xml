@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center|left"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <com.mxi.contextus.Font.BoldMyTextView
+            android:id="@+id/tv_dialog_header"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center|left"
+            android:background="@color/colorPrimary"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:text="COMMENT"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffb2b2b2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <com.mxi.contextus.Font.MyEditText
+            android:imeOptions="flagNoExtractUi"
+            android:maxLength="100"
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Add your comment"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:focusable="true"
+            android:singleLine="true" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffb2b2b2" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <com.mxi.contextus.Font.BoldMyButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="CANCEL"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="#ffb2b2b2" />
+
+
+        <com.mxi.contextus.Font.BoldMyButton
+            android:id="@+id/btn_create"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="COMMENT"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+</LinearLayout>

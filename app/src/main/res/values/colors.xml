@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#000000</color>
+    <color name="textColorAccent">#000000</color>
+    <color name="color_menudevider">#C7C6C2</color>
+    <color name="color_nv_header">#727272</color>
+    <color name="color_preloader_start">#000000</color>
+    <color name="color_preloader_center">#202020</color>
+    <color name="color_preloader_end">#727272</color>
+    <color name="Purple">#800080</color>
+</resources>
